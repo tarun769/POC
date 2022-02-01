@@ -1,0 +1,28 @@
+host = "192.168.220.128"
+username = "admin1"
+password = "12345"
+src_path="/home/admin1/src_folder/"            #specify any folder which can be used for copy
+dst_path="/home/admin1/dst_folder/"
+cut_src_path="/home/admin1/src_folder/"    #specify any folder which can be used for cut
+cut_dst_path="/home/admin1/dst_folder/"
+cut_src_path_file="/home/admin1/src_folder/admin1.txt"
+cut_dst_path_file="/home/admin1/src_folder/admin1_cut.txt"
+src_path_for_listing_dir="/home/admin1"
+choice=1
+path_for_write_in_file="/home/admin1/myfile.txt"
+path_for_write_in_file2="/home/admin1/myfile2.txt"
+src_path_cross_copy= "C:\\Users\\tarun\\Desktop\\"
+
+url=    "https://whenwise.agileway.net/sign-in"
+browser=    "chrome"
+id_for_email=    "email"
+id_for_password=    "password"
+id_for_sign_in=    "login-btn"
+id_for_services=    "menu_services"
+xpath_for_prices1=    "(//div[@class='service-category']//tbody/tr/td[contains(text(),'$')])[1]"
+xpath_for_prices2=    "(//div[@class='service-category']//tbody/tr/td[contains(text(),'$')])[2]"
+id_for_service_name=    "service_name"
+id_for_service_code=    "service_code"
+id_for_service_price=    "service_price"
+id_for_create=    "save-btn"
+id_for_new_service=    "new-service-13-link"
