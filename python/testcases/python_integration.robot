@@ -12,6 +12,7 @@ Suite Teardown    close browser
 *** Variables ***
 ${file_path}    Common_Lib/data.json
 
+
 *** Test Cases ***
 TC1 - login
     [Documentation]    This testcase verifies the successful login and navigates to services page.
