@@ -1,0 +1,25 @@
+url = "https://whenwise.agileway.net/"
+browser = "chrome"
+
+xpath_for_sign_in = "//a[@id='sign-in-btn']"
+xpath_for_email = "//input[@id='email']"
+xpath_for_password="//input[@id='password']"
+xpath_for_sign_in_btn = "//input[@id='login-btn']"
+xpath_for_header = "//h1[@class='layout-container-page-title' and contains(text(),Dashboard)]"
+xpath_for_services="//a[@id='menu_services']"
+xpath_for_service_header = "//h1[contains(text(),Dashboard)]"
+xpath_for_service_creation="//a[@id='new-service-13-link']"
+xpath_for_new_service_header = "//h1[contains(text(),'New Service')]"
+
+xpath_for_table_row="//table[@id='services-table']//following::tr"
+xpath_for_table_col="//table[@id='services-table']//following::tr[1][td]"
+
+xpath_for_table="//table[@id='services-table']"
+xpath_for_service_name="//input[@id='service_name']"
+xpath_for_service_code="//input[@id='service_code']"
+xpath_for_service_price="//input[@id='service_price']"
+xpath_for_service_btn="//button[@id='save-btn']"
+xpath_for_check_box1="//span[contains(.,'Default service')]"
+xpath_for_check_box2="//span[contains(.,'Default for new clients')]"
+xpath_for_check_box3="//span[contains(.,'Direct access only?')]"
+#save-btn
