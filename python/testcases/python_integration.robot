@@ -9,6 +9,7 @@ Variables    ../Common_Lib/variables.py
 Suite Setup     open browser    ${url}    ${browser}
 Suite Teardown    close browser
 
+
 *** Variables ***
 ${file_path}    Common_Lib/data.json
 
