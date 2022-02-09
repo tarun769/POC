@@ -11,7 +11,7 @@ TC1 - Copy Function For Directory
     [Documentation]  This function is used for implementing Copy Functionality for directory
     [Tags]      Linux_Integration
     ${output}=	Read Until Prompt
-    Should End With	${output}	root@admin1-virtual-machine:~#
+    Should End With	${output}	root@ubuntu:~#
     Write       cd ${src_path}
     ${output}=	Read Until Prompt
     Write       cp -r ${src_path} ${dst_path}
@@ -45,19 +45,19 @@ TC5 - Test with If Else
     ...  ELSE IF  ${choice} == 2     List Files in Folder
     ...  ELSE  Log     Nothing Matched
 
-TC5 - Write Data Into File
+TC6 - Write Data Into File
     [Documentation]  This function is used for implementing Write content in a File
     [Tags]      Reading_Writing
     Execute Command     echo 'hi this is poc work' >${path_for_write_in_file}
     File Should Exist   ${path_for_write_in_file}
 
-TC6 - Read data from file
+TC7 - Read data from file
     [Documentation]  This function is used for implementing Read content in a File
     [Tags]      Reading_Writing
     ${output}=  Execute Command     cat ${path_for_write_in_file}
     Log     ${output}
 
-TC7 - Regular Expression
+TC8 - Regular Expression
     [Documentation]  This function is used for implementing usage of  regex
     [Tags]      Reading_Writing
     open connection    ${host}

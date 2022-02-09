@@ -56,7 +56,7 @@ TC5 - Delete
     log to console  ${resp.content}
     log to console    ${status_code}
 
-TC5 - Basic Authentication
+TC6 - Basic Authentication
     ${auth}    create list    test    test
     create session    mysession    ${base_url}    auth=${auth}
     ${resp}=    Get on Session    mysession    api/users
